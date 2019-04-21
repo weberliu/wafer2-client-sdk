@@ -8,6 +8,7 @@ var exports = module.exports = {
     login: login.login,
     loginWithCode: login.loginWithCode,
     setLoginUrl: login.setLoginUrl,
+    init: login.init,
 
     Session,
     clearSession: Session.clear,
